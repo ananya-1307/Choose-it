@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&family=Varela&family=Varela+Round&display=swap');
+body{
+    font-family: 'Indie Flower', cursive;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-color: var(--color, rgb(215, 228, 231) );
+   
+}
+
+header{
+    height:10vh;
+    
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    background-blend-mode: darken;
+    background: linear-gradient(to right, #34dbc2, #283e87);
+   
+}
+h1{
+    margin: 0px 0px 0px 0px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-direction:column;
+    align-items: center;
+}
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3::first-line {
+    color: #53c8df;
+    font-variant: small-caps;
+  } 
+
+
+  
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .item-pairs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .item-pair {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .item-btn {
+    padding: 10px 20px;
+    width:120px;
+    background: linear-gradient(to right, #34dbc2, #283e87);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease,  0.3s ease;
+    perspective: 1000px; /* Adding perspective for 3D effect */
+  }
+  
+  .item-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px) translateZ(10px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #show-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #283e87, #34dbc2);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #show-btn:hover {
+    
+    transform: translateY(-3px) translateZ(10px);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #selected-items {
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+  }
+  
+  
+  
+  
+
+
+footer{
+    
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #283e87, #34dbc2);
+   
+}
+.p{
+    width: 60%;
+    
+}
+h2{
+    margin-bottom:5px
+}
